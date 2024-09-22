@@ -1,0 +1,53 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-link{
+    font-size: 20px;
+    height: 25%;
+    animation: onUnhover 0.5s forwards;
+}
+.nav-link:hover{
+    animation: onHover 0.5s forwards;
+}
+header{
+    background-image: url('https://betru.ru/wp-content/uploads/2020/05/fonbet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+body{
+    background-image: url('https://kalix.club/uploads/posts/2023-12/1702955768_kalix-club-p-smeshnie-foni-dlya-zuma-oboi-foni-5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgha(255,255,255,0,92);
+}
+main{
+    margin-top: 3%;
+}
+main p{
+    margin-left: 3%;
+}
+
+@keyframes onHover{
+    0%{
+        height: 25%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+@keyframes onUnhover{
+    0%{
+        height: 100%;
+    }
+    100%{
+        height: 25%;
+    }
+}
